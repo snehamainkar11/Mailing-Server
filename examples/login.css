@@ -1,0 +1,167 @@
+
+
+.form1
+{
+	max-width:600px;
+	margin:auto;
+	width:100%;
+	
+	
+}
+
+.col1 {
+  float:center;
+  width: 100%;
+  margin: auto;
+  padding: 0 6px;
+  margin-top: 3px;
+  font-size:20px;
+}
+
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+    margin-left:25px;
+}
+
+.icon {
+  padding: 7px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 80%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+
+/*.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}*/
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width:30%;
+  border-radius:100%;
+}
+div.rem{
+background-color: #f1f1f1;
+  text-align:center;
+  text-align:center;
+}
+.btn1{
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+.btn{
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #4682B4;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 12px;
+  width:45%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+
+}
+.btn:hover{
+ 
+  background-color: #0000CD;
+  font-size: 20px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+h1,h2{
+	text-align:center;
+	font-size:30px;
+	color:white;
+	text-decoration:bolder;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  
+   background-image: url("mail11.jpg");
+  background-size: cover;
+ 
+}
+

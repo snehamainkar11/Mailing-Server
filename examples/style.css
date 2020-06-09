@@ -1,0 +1,177 @@
+ body {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url('mail11.jpg');
+  
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 20px;
+  margin-top:10px;
+align:center;  
+   background-color:white;
+  background-size: cover;
+ 
+ 
+}
+h2{
+	float:top;
+    
+	color:#110012;
+	
+	font-size:36px;
+	text-decoration:bolder;
+	font-family: Arial, Helvetica, sans-serif;
+}
+ 
+}
+
+h1{
+	float:top;
+    
+	color:nevysblue;
+	
+	font-size:34px;
+	text-decoration:bolder;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=email],input[type=date] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background-color: #f1f1f1;
+  border:2px solid #456879;
+	border-radius:12px;
+	height: 10px;
+
+}
+input[type=text]:focus, input[type=password]:focus,input[type=email]:focus {
+  background-color: #ddd;
+  outline:none;
+}
+
+/* Overwrite default styles of hr */
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-top:10px;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 60%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+
+.btn1{
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+.btn{
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #4682B4;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 12px;
+  width:45%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+
+h1,h2{
+    font-size: 30px;
+	color:white;
+	float:top;
+	text-decoration:bolder;
+    font-variant: small-caps;
+    list-style: none;
+    line-height: normal;
+   
+}
+.imgcontainer {
+  text-align: center;
+  top:-20px;
+  width:100%;
+  height:40%;
+}
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+
+}
+.btn:hover{
+ 
+  background-color: #0000CD;
+  font-size: 20px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
